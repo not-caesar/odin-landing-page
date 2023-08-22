@@ -104,6 +104,10 @@ img {
 }
 
 .page-content {
+    margin: auto;
+}
+
+.features {
     max-width: 1024px;
     margin: auto;
 }
@@ -120,6 +124,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 64px;
+    margin-bottom: 64px;
 }
 
 .card {
@@ -137,4 +142,31 @@ img {
     border: 5px solid #3882F6;
     border-radius: 16px;
     margin-bottom: 8px;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    padding: 64px;
+}
+
+.testimonial p {
+    max-width: 960px;
+    margin: auto;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 100;
+    color:#1F2937;
+    margin:auto;
+    
+}
+
+.testimonial .author {
+    max-width: 960px;
+    font-weight: bold;
+    font-style: normal;
+    font-size: large;
+    text-align: end;
+    color: #1F2937;
+    margin-top: 16px;
+    padding-right: 64px;
 }
