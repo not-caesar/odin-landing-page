@@ -208,3 +208,10 @@ img {
     margin: 8px 0px;
     font-weight: lighter;
 }
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 32px;
+}
